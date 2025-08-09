@@ -24,3 +24,57 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
+
+.bg-blue-sky-gradient {
+  background: rgb(49, 46, 129); 
+  background: linear-gradient(
+    90deg,
+    rgba(49, 46, 129, 1) 0%,     
+    rgba(59, 130, 246, 1) 50%,    
+    rgba(56, 189, 248, 1) 100%    
+  );
+}
+.text-blue-sky-gradient {
+  background: rgb(49, 46, 129); 
+  background: linear-gradient(
+    90deg,
+    rgba(49, 46, 129, 1) 0%,     
+    rgba(59, 130, 246, 1) 50%,    
+    rgba(56, 189, 248, 1) 100%    
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-blue-teal-gradient {
+  background: rgb(49, 130, 206);
+  background: linear-gradient(
+    90deg,
+    rgba(49, 130, 206, 1) 0%,
+    rgba(56, 178, 172, 1) 100%
+  );
+}
+
+.text-blue-teal-gradient {
+  background: rgb(49, 130, 206);
+  background: linear-gradient(
+    90deg,
+    rgba(49, 130, 206, 1) 0%,
+    rgba(56, 178, 172, 1) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.react-multi-carousel-dot-list {
+  bottom: 3.5% !important;
+}
+
+.react-multi-carousel-dot--active button {
+  background: white !important;
+}
